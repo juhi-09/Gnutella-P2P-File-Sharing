@@ -1,0 +1,34 @@
+Author : Kaushik L V
+Roll No: 20172138
+
+Assigment 2 - Gnutella File Sharing 
+
+Part - 1
+CRS-
+
+(1) Search - This will give the results of the file if it exists with the current connected clients.
+	     However I am unable to display the contents of the results on the client side.
+	     (Please do not run this command with quotes)
+(2) Share - Client shares the file he has on his system.
+	    (Please use quotes)
+(3) Deregister - Deletes an entry from the repo file.
+		 (Please use quotes)
+(4) Logging - A log file called "repo.log" is created where the server code is executed.
+
+Part - 2
+Client - 
+
+(1) Search - This will give the results of the file if it exists with the current connected clients.
+	     However I am unable to display the contents of the results on the client side.
+	     (Please do not run this command with quotes)
+(2) Share - Client shares the file he has on his system.
+	    (Please use quotes)
+(3) Deregister - Deletes an entry from the repo file.
+		 (Please use quotes)
+(4) Logging - A log file called "repo.log" is created where the server code is executed.
+
+Part - 2
+RPC -
+
+(1) exec - Run the exec command after connecting two clients to CRS.
+ 	   (Please use quotes)
