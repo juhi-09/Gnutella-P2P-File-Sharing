@@ -31,6 +31,7 @@ void sendFiletoClient(int returnVal, string msg) {
 	int sendCount = 0;
 	ssize_t dataSent = 0, dataRead, fileSize = 0;
 	int bufSize = 1024;
+	int extendedBuffSize = 2046;
 	char sendBuffer[bufSize];
 	char errMsg[20] = "FILE_NOT_FOUND";
 
@@ -104,6 +105,7 @@ void *startServer(void *cl) {
 	//int clientCount = 1;
 	int returnVal;
 	int messageSize = 1024;
+	int extendedMessageSize = 2046;
 	char message[messageSize];
 
 	while(1) {    	
